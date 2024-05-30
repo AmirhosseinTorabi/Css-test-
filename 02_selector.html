@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /*  body Styling */
+      body {
+        background-color: #333;
+      }
+      /* internal CSS */
+      .primary-heading {
+        color: royalblue;
+      }
+      #Home {
+        background-color: lightgray;
+      }
+      /* MUltiple Selector */
+
+      #Home,
+      #About {
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ccc;
+      }
+      /* Nested Selector */
+      #Home p {
+        font-size: 20px;
+      }
+      #About p {
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Home">
+      <h2 class="primary-heading">Home</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus
+        tempore eum earum molestias libero?
+      </p>
+    </div>
+    <div id="About">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, amet?
+      </p>
+    </div>
+  </body>
+</html>
