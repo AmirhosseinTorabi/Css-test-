@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float & align</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4em;
+      }
+      .container {
+        max-width: 960px;
+        margin: 30px auto;
+      }
+      .crl {
+        clear: both;
+      }
+      .box {
+        background: #f4f4f4;
+        border: 1px solid #332;
+        padding: 20px;
+        margin-bottom: 15px;
+      }
+      .box p {
+        /* Text align */
+        text-align: center;
+        text-align: justify;
+      }
+      .box h3 {
+        /* Text align */
+        text-align: center;
+      }
+      #box2 {
+        float: right;
+        width: 65%;
+      }
+      #box3 {
+        float: left;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box1" class="box">
+        <h3>Heading 1</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          voluptatum inventore laborum voluptas dolores, optio maiores alias
+          assumenda sapiente dolor!
+        </p>
+      </div>
+      <div id="box2" class="box">
+        <h3>Heading 2</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          voluptatum inventore laborum voluptas dolores, optio maiores alias
+          assumenda sapiente dolor!
+        </p>
+      </div>
+      <div id="box3" class="box">
+        <h3>Heading 3</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          voluptatum inventore laborum voluptas dolores, optio maiores alias
+          assumenda sapiente dolor!
+        </p>
+      </div>
+      <div class="crl"></div>
+      <div id="box4" class="box">
+        <h3>Heading 4</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          voluptatum inventore laborum voluptas dolores, optio maiores alias
+          assumenda sapiente dolor!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
